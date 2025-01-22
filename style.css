@@ -63,3 +63,21 @@
 .invsible {
   visibility: hidden;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    *{
+        margin: 0 !important;
+    }
+    .time {
+        margin-top: 50% !important;
+        margin-left: 10% !important;
+    }
+
+    .week {
+        margin-top: -30% !important;
+        font-size: 3rem;
+    }
+
+  }
